@@ -1,0 +1,16 @@
+def daray2va5(i):
+   
+   while i != 0:
+     k=l%10
+     if k!=2 and k!=5:
+      return Fals
+     l//=10
+     return True
+
+def function2(n):
+
+  for I in range (n):
+    k=daray2va5(i)
+    if k:
+      print(i)
+  return print ("not find")
