@@ -1,0 +1,10 @@
+class A ():
+    name="ali"
+    age=25
+
+A.name="reza"
+print (A.name)
+
+test=A()
+test.name="ahmad"
+print(test.age)
