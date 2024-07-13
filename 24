@@ -4,3 +4,5 @@ def rect(a,b)
     print (P,S)
 #یا 
     return P , S
+
+K,M = rect(t1,t2)
