@@ -1,0 +1,13 @@
+def Mean_new(): 
+    k=[]
+    i=0
+    while i! = 1000:
+        i = int (input())
+        if i == 1000:
+            break
+        K.append (i)
+        counter+= 1
+    return k, counter 
+L, S = Mean_new()
+b_sorted(L,S)
+print (L)
