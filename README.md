@@ -8,7 +8,7 @@ def maximum100():
            max=a
     return max
 
-
+####
       l=[]
   k=0
   while k!=5:
@@ -16,7 +16,7 @@ def maximum100():
     l.append(k)
     return l
 
-
+####
 
       l=[]
   k=0
@@ -27,14 +27,14 @@ def maximum100():
     l.append(k)
   return l
 
-
+####
     l.sort()
   count_min=l.count(l[0])
   count_max=l.count(l[-1])
   return l[-1],count_max,l[0],count_min
 
 
-
+####
    if k is not none:
    for i in range (s-1):
     for j in range (s-1-i):
@@ -46,7 +46,7 @@ def maximum100():
    else:
          return 0
 
-
+####
          def b_sort (k=[],s=10):
  if k is not none:
    for i in range (s-1):
@@ -60,7 +60,7 @@ def maximum100():
          return 0
 
 
-
+####
          def Mean ():
     counter = 0
     sum = 0
@@ -71,7 +71,7 @@ def maximum100():
     return (sum-1000)/(counter-1)
 
 
-
+####
       counter=0
   sum=0
 
@@ -84,7 +84,7 @@ def maximum100():
     conter+=1
   return (sum_1000)/(counter-1)
 
-
+####
   def majmoe(i):
    sum=0
    while i != 0:
@@ -99,7 +99,7 @@ def function1(n):
       return k
   return print ("not find")
 
-
+####
   def majmoe(T):
     sum = 0
     while t! = 0:
@@ -115,7 +115,7 @@ def function(n):
 return print("not found")
 
 
-
+####
 def daray2va5(i):
    
    while i != 0:
@@ -133,6 +133,6 @@ def function2(n):
       print(i)
   return print ("not find")
 
-
+#####
 
   
