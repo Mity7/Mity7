@@ -1,0 +1,6 @@
+  l=[]
+  k=0
+  while k!=5:
+    k=int(input('please enter a number'))
+    l.append(k)
+    return l
