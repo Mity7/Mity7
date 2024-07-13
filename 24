@@ -1,4 +1,4 @@
-def rect(a,b)
+def rect(a,b):
     P = 2 * (a+b)
     S = a*b
     print (P,S)
