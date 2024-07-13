@@ -1,11 +1,13 @@
-  counter=0
-  sum=0
+def Mean ():
+  
+    counter=0
+    sum=0
 
-  while i!=1000:
-    i=input()
-    i=int(i)
-    if i==1000:
-      break
-    sum+=i
-    conter+=1
-  return (sum_1000)/(counter-1)
+    while i!=1000:
+        i=input()
+        i=int(i)
+        if i==1000:
+            break
+        sum+=i
+        conter+=1
+    return (sum_1000)/(counter-1)
