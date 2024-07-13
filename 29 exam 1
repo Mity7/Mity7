@@ -1,0 +1,63 @@
+from ast import List
+import random
+
+class Bird:
+    def __init__(self, name, habitat, wildness, size, color,Wings):
+        self.name = name  
+        self.habitat = habitat
+        self.wildness = wildness
+        self.size = size
+        self.color = color
+        
+
+    def __str__(self):
+        return f"{self.name} - Habitat: {self.habitat}, Wildness: {self.wildness}, Size: {self.size}, Color: {self.color}"
+
+    def get_name(self):
+        return f"The bird name is {self.name}"
+        
+    def get_habitat(self):
+        return f"This bird lives in {self.habitat}"
+
+    def get_wildness(self):
+        return f"This bird is {self.wildness}"
+
+    def get_size(self):
+        return f"This bird is aboat {self.size}"
+
+    def get_color(self):
+        return f"The color of This bird is {self.color}"
+
+    def set_wildness(self, wildness):
+        self.wildness = wildness
+
+    def set_size(self, size):
+        self.size = size
+     
+    #def __del__ (self):
+        #print("Bird class deleted") 
+    
+Bird = [Bird(random.randint(1,100), "Shahin", "Forest", "Wild", "2 meters", "Brown") for _ in range(20)]
+
+def sorted_wildness(birds_list):
+    return sorted(birds_list, key=lambda x: x.get_wildness(),reverse=True)
+
+def sorted_size(birds_list):
+    return sorted(birds_list, key=lambda x: x.get_size())            
+ 
+def list (num=20):
+    list =[]
+    for i in range(num):
+        name = f'Bird-{i+1}'
+        habitat = random.choice(['Forest', 'Desert', 'Mountain', 'Lake'])
+        wildness = random.choice(['Wild', 'Domestic'])
+        size = random.randint(1, 10)
+        color = random.choice(['white', 'black', 'green', 'brown', 'gray'])
+        bird = List(name, habitat, wildness, size, color)
+        List.append(bird)
+
+
+
+sorted_birds = sorted_size()  
+sorted_birds = sorted_wildness()
+M = Bird(77, "Morghe Eshgh", "jungle", "domestic", "20cm", "colorful")
