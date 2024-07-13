@@ -1,0 +1,5 @@
+class B:
+    def setvar(self,a,b):
+        self.x=a
+        c=a*b
+        self.y=c
