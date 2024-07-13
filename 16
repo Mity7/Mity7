@@ -1,0 +1,21 @@
+class Triangle():
+   def __init__(self,a,b,c):
+     self.a=a
+     self.b=b
+     self.c=c
+     if a<b+c and b<a+c and c<a+b :
+      print("triangle created")
+     else : 
+      print ("triangleis false")
+   def prim (self):
+     return self.a+self.b+self.c
+   def area (self):
+     S=(self.a+self.b+self.c)/2
+     return (S*(S-self.a)*(S-self.b)*(S-self.c))**(0.5)
+   def __del__(self):
+     print ("triangle deleted")
+     return -1
+T= Triangle (3,4,5)
+print(T.prim())
+print(T.area())
+del T
