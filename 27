@@ -1,0 +1,6 @@
+def max_min (tr):
+    tr.sort()
+    return tr[-1],tr[0]
+
+A = inputlist ()
+M , M = max_min(A)
