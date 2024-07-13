@@ -1,0 +1,18 @@
+class students:
+    def init(self,id,name):
+        self.id=id
+        self.name=name
+    def del(self):
+        print(self.name,"Deleted")
+    def mean(self):
+        input ()
+
+
+        return sum/vs
+    def is_mashroot(self):
+        if self.mean()<12:
+            return True
+        else:
+            return false 
+    defstr(self):
+        print ('this class is student')
